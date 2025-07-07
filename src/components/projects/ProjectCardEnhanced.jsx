@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetPath } from '../../utils/assetPath';
 import {
   Box,
   Image,
@@ -22,7 +23,7 @@ const ProjectCardEnhanced = ({ project, index, onOpen }) => {
   const navigate = useNavigate();
   
   // Default thumbnail based on category if none provided
-  const thumbnail = project.thumbnail || `/images/projects/default-${project.category}.png`;
+  const thumbnail = project.thumbnail || getAssetPath(`/images/projects/default-${project.category}.png`);
   
   return (
     <Box

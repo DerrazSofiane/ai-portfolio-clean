@@ -1,3 +1,5 @@
+import { getAssetPath } from '../utils/assetPath';
+
 export const projects = [
   {
     id: 1,
