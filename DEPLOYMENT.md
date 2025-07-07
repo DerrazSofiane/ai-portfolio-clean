@@ -1,7 +1,7 @@
 # Deployment Guide for GitHub Pages
 
 This guide explains how to deploy your portfolio to GitHub Pages.
-
+ 
 ## Prerequisites
 
 1. Ensure your repository is pushed to GitHub
