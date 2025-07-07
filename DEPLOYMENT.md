@@ -5,7 +5,7 @@ This guide explains how to deploy your portfolio to GitHub Pages.
 ## Prerequisites
 
 1. Ensure your repository is pushed to GitHub
-2. Your GitHub repository should be named `ai-portfolio`
+2. Your GitHub repository should be named `portfolio`
 
 ## Automatic Deployment (Recommended)
 
@@ -32,7 +32,7 @@ The repository includes a GitHub Actions workflow that automatically deploys to 
    - You should see the "Deploy to GitHub Pages" workflow running
    - Once complete (usually 2-3 minutes), your site will be available at:
      ```
-     https://derrazsofiane.github.io/ai-portfolio/
+     https://derrazsofiane.github.io/portfolio/
      ```
 
 ## Manual Deployment (Alternative)
@@ -64,12 +64,12 @@ If you prefer to deploy manually:
    - The site might be cached, try hard refresh (Ctrl+Shift+R or Cmd+Shift+R)
 
 4. **Check base URL:**
-   - Ensure `vite.config.js` has the correct `base: '/ai-portfolio/'`
+   - Ensure `vite.config.js` has the correct `base: '/portfolio/'`
 
 ### If assets don't load:
 
 - All asset paths should be relative or use the base path
-- In your code, use paths like `/logo.png` which will be resolved to `/ai-portfolio/logo.png`
+- In your code, use paths like `/logo.png` which will be resolved to `/portfolio/logo.png`
 
 ## Custom Domain (Optional)
 

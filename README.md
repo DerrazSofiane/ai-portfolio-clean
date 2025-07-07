@@ -4,7 +4,7 @@ Professional portfolio showcasing AI and data engineering projects.
 
 ## 🚀 Live Demo
 
-Visit: [https://derrazsofiane.github.io/ai-portfolio-clean/](https://derrazsofiane.github.io/ai-portfolio-clean/)
+Visit: [https://derrazsofiane.github.io/portfolio/](https://derrazsofiane.github.io/portfolio/)
 
 ## 🛠️ Technologies
 
