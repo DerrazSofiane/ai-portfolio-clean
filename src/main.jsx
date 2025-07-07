@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ColorPaletteProvider>
       <ChakraProvider theme={dynamicTheme}>
-        <BrowserRouter basename="/ai-portfolio-clean">
+        <BrowserRouter basename="/portfolio">
           <AppWithRouter />
         </BrowserRouter>
       </ChakraProvider>
