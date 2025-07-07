@@ -1,0 +1,83 @@
+/* Glassmorphism Effects */
+.glass {
+  background: var(--color-glassBg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--color-glassBorder);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glass-hover {
+  transition: all 0.3s ease;
+}
+
+.glass-hover:hover {
+  background: var(--color-glassBg);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+  transform: translateY(-2px);
+  border-color: var(--color-primary);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-primary {
+  background: var(--color-glassBg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--color-primary);
+}
+
+/* Gradient Backgrounds */
+.gradient-primary {
+  background: linear-gradient(135deg, #22D3EE 0%, #0891B2 100%);
+}
+
+.gradient-dark {
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+}
+
+.gradient-mesh {
+  background-image: 
+    radial-gradient(at 40% 20%, rgba(34, 211, 238, 0.3) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(100, 116, 139, 0.2) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(34, 211, 238, 0.2) 0px, transparent 50%);
+}
+
+/* Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.pulse-animation {
+  animation: pulse 2s ease-in-out infinite;
+}

@@ -1,0 +1,9 @@
+# Robots.txt for Sofiane Derraz Portfolio
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://sofianederraz.com/sitemap.xml
