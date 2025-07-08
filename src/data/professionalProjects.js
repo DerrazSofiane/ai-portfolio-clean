@@ -279,7 +279,7 @@ The system uses hierarchical generation where course outlines are generated firs
     client: 'Paris je t\'aime (OTCP)',
     period: '2021 - 2024',
     description: 'Built a real-time competitive intelligence system analyzing ticket reseller pricing and strategies, enabling data-driven pricing decisions that increased revenue by 12%.',
-    thumbnail: getAssetPath('/images/projects/paris-competitive-benchmark-thumb.png',
+    thumbnail: getAssetPath('/images/projects/paris-competitive-benchmark-thumb.png'),
     companyLogo: companyLogos['Paris je t\'aime (OTCP)'],
     longDescription: `The Office du Tourisme et des Congrès de Paris (OTCP) was operating in a highly competitive online tourism marketplace where numerous ticket resellers and experience platforms were vying for the same customers. Major players like GetYourGuide, Viator, Tiqets, and Musement were aggressively competing on pricing, user experience, and service offerings. OTCP lacked systematic visibility into competitor strategies, pricing models, and promotional tactics.
 
@@ -504,7 +504,7 @@ The system monitors 8 major ticket reseller platforms with updates every 15 minu
     client: 'Paris je t\'aime (OTCP)',
     period: '2021 - 2024',
     description: 'Developed a hierarchical ML system predicting tourist flows by country of origin with 85% accuracy, enabling culturally-aware service delivery and optimized inventory management.',
-    thumbnail: getAssetPath('/images/projects/paris-tourist-flow-thumb.png',
+    thumbnail: getAssetPath('/images/projects/paris-tourist-flow-thumb.png'),
     companyLogo: companyLogos['Paris je t\'aime (OTCP)'],
     longDescription: `The Office du Tourisme et des Congrès de Paris struggled with inefficient resource allocation due to unpredictable tourist flows and poor inventory management. Beyond just knowing how many tourists would arrive, they lacked critical insights into where tourists were coming from, making it impossible to optimize language-specific services, targeted marketing, and culturally appropriate offerings.
 
@@ -722,7 +722,7 @@ The prediction system employed a two-stage approach: first predicting total tour
     client: 'Paris je t\'aime (OTCP)',
     period: '2022 - 2024',
     description: 'Created an intelligent content rewriting system using LLMs to generate platform-specific tourism descriptions, reducing content creation time by 85%.',
-    thumbnail: getAssetPath('/images/projects/paris-content-rewriter-thumb.png',
+    thumbnail: getAssetPath('/images/projects/paris-content-rewriter-thumb.png'),
     companyLogo: companyLogos['Paris je t\'aime (OTCP)'],
     longDescription: `The Office du Tourisme et des Congrès de Paris faced a significant content management challenge with thousands of tourist attraction descriptions, event listings, and promotional texts that needed regular updates and optimization. Their content team was spending countless hours manually rewriting descriptions to meet various platform requirements (different character limits, tone variations, SEO optimization).
 
@@ -916,7 +916,7 @@ The rewriting system employed an iterative approach with intelligent retry logic
     client: 'Paris je t\'aime (OTCP)',
     period: '2021 - 2023',
     description: 'Implemented a rule-based automation system using Python and Cron jobs that reduced manual workload by 60%, processing 500+ daily tasks automatically.',
-    thumbnail: getAssetPath('/images/projects/paris-task-automation-thumb.png',
+    thumbnail: getAssetPath('/images/projects/paris-task-automation-thumb.png'),
     companyLogo: companyLogos['Paris je t\'aime (OTCP)'],
     longDescription: `The Office du Tourisme et des Congrès de Paris faced a critical operational challenge: their team was overwhelmed with repetitive manual tasks related to tourism data processing and visitor information management. Staff members were spending excessive time on routine activities like data entry, report generation, and responding to standard visitor inquiries.
 
@@ -1139,7 +1139,7 @@ class StreamlitMonitoringDashboard:
     client: 'Headn',
     period: '2022',
     description: 'Built an intelligent data collection and analysis system for employee reviews, using NLP to characterize company culture and societal impact.',
-    thumbnail: getAssetPath('/images/projects/glassdoor-analytics-thumb.png',
+    thumbnail: getAssetPath('/images/projects/glassdoor-analytics-thumb.png'),
     companyLogo: companyLogos['Headn'],
     longDescription: `Developed a sophisticated web scraping and NLP system to analyze employee sentiment from multiple sources including Glassdoor. The system uses deep learning for text classification to help learners choose companies aligned with their values.
 
@@ -1374,7 +1374,7 @@ The platform revolutionized how tourism stakeholders understand visitor experien
     client: 'ADN Data',
     period: '2023',
     description: 'Developed an AI system for hierarchical modeling and prediction of relevant business decision-makers based on specific client needs.',
-    thumbnail: getAssetPath('/images/projects/strategic-predictor-thumb.png',
+    thumbnail: getAssetPath('/images/projects/strategic-predictor-thumb.png'),
     companyLogo: companyLogos['ADN Data'],
     longDescription: `Created a sophisticated ML system that analyzes multi-source business data to identify and predict the most relevant strategic decision-makers for B2B outreach. The system revolutionized B2B targeting by automating the identification of key stakeholders within complex organizational structures.
 
@@ -1644,7 +1644,7 @@ ADN Data faced the challenge of manually researching organizational structures f
     client: 'FranceVérif',
     period: '2023',
     description: 'Built a comprehensive fraud detection system for e-commerce platforms with 96% accuracy, including real-time monitoring and adaptive learning.',
-    thumbnail: getAssetPath('/images/projects/fraud-detection-system-thumb.png',
+    thumbnail: getAssetPath('/images/projects/fraud-detection-system-thumb.png'),
     companyLogo: companyLogos['FranceVérif'],
     longDescription: `Developed an end-to-end fraud detection system using advanced ML techniques and NLP for analyzing transaction patterns and user behavior. The system achieved 96% accuracy within 8 months of deployment, significantly reducing fraudulent transactions.
 
@@ -1907,7 +1907,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
         type: 'image',
         title: 'Fraud Detection Dashboard',
         description: 'Real-time monitoring dashboard showing fraud patterns and alerts',
-        thumbnail: getAssetPath('/images/projects/fraud-detection/dashboard-thumb.png',
+        thumbnail: getAssetPath('/images/projects/fraud-detection/dashboard-thumb.png'),
     companyLogo: companyLogos['FranceVérif'],
         url: '/images/projects/fraud-detection/dashboard-full.png'
       },
@@ -1916,7 +1916,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
         type: 'image',
         title: 'SHAP Explainability Interface',
         description: 'Visual explanation of fraud detection decisions using SHAP values',
-        thumbnail: getAssetPath('/images/projects/fraud-detection/shap-thumb.png',
+        thumbnail: getAssetPath('/images/projects/fraud-detection/shap-thumb.png'),
         url: '/images/projects/fraud-detection/shap-full.png'
       },
       {
@@ -1924,7 +1924,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
         type: 'image',
         title: 'Real-Time Alert System',
         description: 'Alert dashboard showing suspicious transaction patterns',
-        thumbnail: getAssetPath('/images/projects/fraud-detection/alerts-thumb.png',
+        thumbnail: getAssetPath('/images/projects/fraud-detection/alerts-thumb.png'),
         url: '/images/projects/fraud-detection/alerts-full.png'
       },
       
@@ -1934,7 +1934,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
         type: 'image',
         title: 'System Architecture Diagram',
         description: 'High-level architecture showing data flow and ML pipeline',
-        thumbnail: getAssetPath('/images/projects/fraud-detection/architecture-thumb.png',
+        thumbnail: getAssetPath('/images/projects/fraud-detection/architecture-thumb.png'),
         url: '/images/projects/fraud-detection/architecture-full.png'
       },
       {
@@ -1942,7 +1942,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
         type: 'image',
         title: 'ML Pipeline Flow',
         description: 'Detailed ML pipeline from data ingestion to model deployment',
-        thumbnail: getAssetPath('/images/projects/fraud-detection/ml-pipeline-thumb.png',
+        thumbnail: getAssetPath('/images/projects/fraud-detection/ml-pipeline-thumb.png'),
         url: '/images/projects/fraud-detection/ml-pipeline-full.png'
       },
       
@@ -1952,7 +1952,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
         type: 'image',
         title: 'Model Performance Metrics',
         description: 'Precision, recall, and F1 scores across different fraud types',
-        thumbnail: getAssetPath('/images/projects/fraud-detection/metrics-thumb.png',
+        thumbnail: getAssetPath('/images/projects/fraud-detection/metrics-thumb.png'),
         url: '/images/projects/fraud-detection/metrics-full.png'
       },
       {
@@ -1960,7 +1960,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
         type: 'image',
         title: 'ROC Curve Analysis',
         description: 'ROC curves comparing different model configurations',
-        thumbnail: getAssetPath('/images/projects/fraud-detection/roc-thumb.png',
+        thumbnail: getAssetPath('/images/projects/fraud-detection/roc-thumb.png'),
         url: '/images/projects/fraud-detection/roc-full.png'
       },
       {
@@ -1968,7 +1968,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
         type: 'image',
         title: 'Feature Importance Chart',
         description: 'Top 20 features contributing to fraud detection',
-        thumbnail: getAssetPath('/images/projects/fraud-detection/features-thumb.png',
+        thumbnail: getAssetPath('/images/projects/fraud-detection/features-thumb.png'),
         url: '/images/projects/fraud-detection/features-full.png'
       },
       
@@ -1978,7 +1978,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
         type: 'video',
         title: 'Live Fraud Detection Demo',
         description: 'Demonstration of real-time fraud detection on sample transactions',
-        thumbnail: getAssetPath('/images/projects/fraud-detection/demo-thumb.png',
+        thumbnail: getAssetPath('/images/projects/fraud-detection/demo-thumb.png'),
         url: 'https://www.youtube.com/embed/demoVideoId'
       }
     ]
@@ -1990,7 +1990,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
     client: "W'ANT",
     period: '2020',
     description: 'Created a comprehensive tourism analytics platform for Normandy region, featuring automated data collection and real-time sentiment analysis.',
-    thumbnail: getAssetPath('/images/projects/tourism-sentiment-dashboard-thumb.png',
+    thumbnail: getAssetPath('/images/projects/tourism-sentiment-dashboard-thumb.png'),
     companyLogo: companyLogos['W\'ANT'],
     longDescription: `Designed and implemented a complete data pipeline for analyzing tourism dynamics in Normandy. The system revolutionized how tourism stakeholders understand visitor experiences by automating the entire analytics workflow.
 
@@ -2319,7 +2319,7 @@ W'ANT needed to understand tourist sentiment across hundreds of attractions in N
     client: 'ISOPROM',
     period: '2019',
     description: 'Developed a comprehensive BI platform for strategic decision-making, featuring predictive revenue calculations and automated reporting.',
-    thumbnail: getAssetPath('/images/projects/business-intelligence-platform-thumb.png',
+    thumbnail: getAssetPath('/images/projects/business-intelligence-platform-thumb.png'),
     companyLogo: companyLogos['ISOPROM'],
     longDescription: `Built a complete business intelligence solution that transformed raw data into actionable insights for executive decision-making. The platform revolutionized ISOPROM's strategic planning process by providing real-time visibility into business performance and predictive insights.
 
