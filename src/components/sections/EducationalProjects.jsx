@@ -331,7 +331,7 @@ const EducationalProjects = () => {
                   </VStack>
                 </HStack>
                 <Text color="var(--color-textSecondary)" mb={2} fontWeight="bold">
-                  CentraleSupélec
+                  OC CentraleSupélec
                 </Text>
                 <Text color="var(--color-textSecondary)" fontSize="sm">
                   Graduate-level engineering degree from one of France's most prestigious 
