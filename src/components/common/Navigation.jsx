@@ -134,8 +134,16 @@ const Navigation = () => {
             {navItems.map((item) => (
               <NavLink key={item.to} item={item} />
             ))}
-            <Button variant="primary" size="md">
-              Télécharger CV
+            <Button 
+              variant="primary" 
+              size="md"
+              as="a"
+              href={`${import.meta.env.BASE_URL}sofiane derraz AI Resume.pdf`}
+              download="Sofiane_Derraz_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download CV
             </Button>
           </HStack>
 
@@ -168,8 +176,17 @@ const Navigation = () => {
               {navItems.map((item) => (
                 <NavLink key={item.to} item={item} onClick={onClose} />
               ))}
-              <Button variant="primary" size="md" w="full">
-                Télécharger CV
+              <Button 
+                variant="primary" 
+                size="md" 
+                w="full"
+                as="a"
+                href={`${import.meta.env.BASE_URL}sofiane derraz AI Resume.pdf`}
+                download="Sofiane_Derraz_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download CV
               </Button>
             </VStack>
           </DrawerBody>

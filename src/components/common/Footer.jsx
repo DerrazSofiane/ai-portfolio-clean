@@ -56,10 +56,10 @@ const Footer = () => {
           
           <Stack direction={{ base: 'column', md: 'row' }} justify="space-between" align="center">
             <Text color="brand.secondary" fontSize="sm">
-              © {currentYear} Sofiane Derraz. Tous droits réservés.
+              © {currentYear} Sofiane Derraz. All rights reserved.
             </Text>
             <Text color="brand.secondary" fontSize="sm">
-              Conçu avec React & Chakra UI
+              Built with React & Chakra UI
             </Text>
           </Stack>
         </Stack>
