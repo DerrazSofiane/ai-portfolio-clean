@@ -20,7 +20,7 @@ export const professionalProjects = [
     client: 'Digifab',
     period: 'Jan 2024 - Present',
     description: 'Architected a unified GenAI platform orchestrating multiple LLMs to generate diverse educational content types - courses, quizzes, exercises, and assessments - with 160% performance improvement.',
-    thumbnail: getAssetPath('/images/projects/digifab-genai-thumb.png',
+    thumbnail: getAssetPath('/images/projects/digifab-genai-thumb.png'),
     companyLogo: companyLogos['Digifab'],
     longDescription: `Digifab, a digital learning and content creation company, was struggling with an inefficient content processing pipeline that was severely limiting their ability to scale. Their existing system took hours to generate diverse educational content across multiple formats (text, images, and videos). The manual processes involved in creating different content types, managing multiple LLM providers for various tasks, and ensuring pedagogical quality across all outputs created significant bottlenecks.
 
