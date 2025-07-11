@@ -263,14 +263,7 @@ The system uses hierarchical generation where course outlines are generated firs
         explanation: 'This routing system selects the best LLM for each content type based on quality, cost, latency, and specialization, reducing costs by 30% while maintaining quality.'
       }
     ],
-    testimonials: [
-      {
-        quote: "The platform revolutionized our content creation. We can now generate complete courses with quizzes, exercises, and assessments in hours. The quality is consistently high, and the variety keeps learners engaged.",
-        author: "Head of Learning",
-        role: "Educational Content Director",
-        company: "Digifab"
-      }
-    ]
+    testimonials: []
   },
 
   {
@@ -488,14 +481,7 @@ The system monitors 8 major ticket reseller platforms with updates every 15 minu
         explanation: 'Advanced analytics provide market positioning insights, identifying pricing opportunities and threats to help OTCP optimize their competitive strategy.'
       }
     ],
-    testimonials: [
-      {
-        quote: "The competitive benchmark tool gave us eyes on the market we never had before. We can now price confidently and respond to competitor moves in real-time.",
-        author: "Revenue Management Team",
-        role: "Pricing Strategy",
-        company: "Paris je t'aime"
-      }
-    ]
+    testimonials: []
   },
 
   {
@@ -706,14 +692,7 @@ The prediction system employed a two-stage approach: first predicting total tour
         explanation: 'This system optimizes inventory and staffing based on predicted visitor nationalities, ensuring culturally appropriate services and maximizing satisfaction.'
       }
     ],
-    testimonials: [
-      {
-        quote: "The ability to predict not just how many tourists, but which nationalities would visit, revolutionized our operations. We now provide truly personalized experiences that respect cultural preferences.",
-        author: "Marie Laurent",
-        role: "International Markets Director",
-        company: "Paris je t'aime"
-      }
-    ]
+    testimonials: []
   },
 
   {
@@ -900,14 +879,7 @@ The rewriting system employed an iterative approach with intelligent retry logic
         explanation: 'Multiple similarity metrics ensure generated content maintains diversity while preserving semantic accuracy, preventing repetitive outputs.'
       }
     ],
-    testimonials: [
-      {
-        quote: "Le rédacteur autonome a transformé notre façon de gérer le contenu. Nous pouvons maintenant actualiser des centaines de descriptions en quelques heures au lieu de plusieurs semaines.",
-        author: "Sophie Martin",
-        role: "Content Manager",
-        company: "Paris je t'aime"
-      }
-    ]
+    testimonials: []
   },
 
   {
@@ -1358,14 +1330,7 @@ The platform revolutionized how tourism stakeholders understand visitor experien
         explanation: 'This classifier uses a fine-tuned DistilBERT model to analyze employee reviews across 8 value dimensions, providing scores and confidence levels that help job seekers find companies aligned with their values.'
       }
     ],
-    testimonials: [
-      {
-        quote: "The value-based company insights helped clarify career choices and avoid misalignment with employers. The transparency of AI decisions improved user trust in the algorithm.",
-        author: "Career Guidance Team",
-        role: "Education Advisors",
-        company: "Headn"
-      }
-    ]
+    testimonials: []
   },
 
   {
@@ -1628,14 +1593,7 @@ ADN Data faced the challenge of manually researching organizational structures f
         explanation: 'This aggregation system ensures data accuracy by cross-referencing multiple sources, resolving conflicts intelligently, and providing confidence scores for each piece of information.'
       }
     ],
-    testimonials: [
-      {
-        quote: "The AI system transformed our B2B outreach strategy. We now identify the right decision-makers in minutes instead of hours, and our success rate has more than tripled.",
-        author: "Jean-Pierre Martin",
-        role: "Head of Sales",
-        company: "ADN Data"
-      }
-    ]
+    testimonials: []
   },
 
   {
@@ -1892,14 +1850,7 @@ A critical innovation was the integration of SHAP (SHapley Additive exPlanations
         explanation: 'This ensemble approach combines the strengths of XGBoost and neural networks while providing clear explanations for each fraud decision using SHAP, building trust with users and enabling legal validation.'
       }
     ],
-    testimonials: [
-      {
-        quote: "The transparency of AI decisions, made possible by SHAP visualizations, reassured non-technical users and facilitated legal validation. The responsiveness of fraud detection was both fast and easy to understand.",
-        author: "FranceVérif Team",
-        role: "Product Management",
-        company: "FranceVérif"
-      }
-    ],
+    testimonials: [],
     visuals: [
       // Screenshots Category
       {
@@ -2303,14 +2254,7 @@ W'ANT needed to understand tourist sentiment across hundreds of attractions in N
         explanation: 'This real-time system processes new reviews every 15 minutes, updates the dashboard automatically, and sends alerts when sentiment drops significantly at any location, enabling rapid response to tourist concerns.'
       }
     ],
-    testimonials: [
-      {
-        quote: "The sentiment analysis platform gave us unprecedented visibility into tourist experiences. We could finally see patterns we were missing and make data-driven decisions that improved satisfaction scores by nearly 20%.",
-        author: "Sophie Dubois",
-        role: "Tourism Director",
-        company: "Normandy Tourism Board"
-      }
-    ]
+    testimonials: []
   },
 
   {
@@ -2722,14 +2666,7 @@ ISOPROM struggled with delayed decision-making due to manual data consolidation 
         explanation: 'This ensemble prediction system combines Prophet, ARIMA, XGBoost, and LSTM models to generate robust revenue forecasts with confidence intervals. It automatically adjusts for different business scenarios and provides explainable predictions that helped ISOPROM improve forecast accuracy by 23%.'
       }
     ],
-    testimonials: [
-      {
-        quote: "The BI platform transformed our decision-making process. What used to take days now happens in hours, and the predictive insights have been remarkably accurate. It's become indispensable for our strategic planning.",
-        author: "Michel Bernard",
-        role: "Chief Strategy Officer",
-        company: "ISOPROM"
-      }
-    ]
+    testimonials: []
   }
 ];
 
