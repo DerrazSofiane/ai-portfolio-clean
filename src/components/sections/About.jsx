@@ -189,7 +189,7 @@ const About = () => {
                 Education & Certifications
               </Heading>
               <Text color="var(--color-secondary)" maxW="2xl">
-                OpenClassrooms AI Engineering graduate with 10 professional projects. 
+                OC CentraleSupélec AI Engineering graduate with 10 professional projects. 
                 Continuous learning on the latest advances in generative AI and LLMs. 
                 Bachelor's degree in Mathematics and Computer Science from University of Le Havre.
               </Text>

@@ -14,7 +14,7 @@ export const allProjects = [
     type: 'education',
     category: project.category.toLowerCase().replace(/\s+/g, '-'),
     displayPeriod: '2020-2022',
-    displayClient: 'OpenClassrooms'
+    displayClient: 'OC CentraleSupélec'
   }))
 ];
 
