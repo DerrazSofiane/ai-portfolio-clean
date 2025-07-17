@@ -93,18 +93,18 @@ const About = () => {
   const expertise = [
     {
       icon: AiOutlineRobot,
-      title: "Deep Learning",
-      description: "Expertise in neural networks, CNN, RNN, Transformers for various applications."
+      title: "Artificial Intelligence",
+      description: "Deep learning, computer vision, NLP, and generative AI for innovative solutions."
     },
     {
-      icon: BiNetworkChart,
-      title: "Computer Vision",
-      description: "Development of computer vision systems for object detection and segmentation."
+      icon: FaAws,
+      title: "Cloud",
+      description: "Scalable cloud architectures on Azure, AWS, and GCP for AI deployments."
     },
     {
-      icon: FaChartLine,
-      title: "Data Science",
-      description: "Predictive analytics, feature engineering, and complex data visualization."
+      icon: FaDocker,
+      title: "MLOps & Automation",
+      description: "End-to-end ML pipelines, CI/CD, containerization, and workflow automation."
     },
   ];
 
