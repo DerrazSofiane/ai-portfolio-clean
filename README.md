@@ -32,8 +32,3 @@ npm run build
 - Email: derraz.sofiane@gmail.com
 - LinkedIn: [Sofiane Derraz](https://www.linkedin.com/in/derraz-sofiane/)
 - GitHub: [DerrazSofiane](https://github.com/DerrazSofiane)
-
-## 📄 License
-
-© 2024 Sofiane Derraz. All rights reserved.
-<!-- test -->
