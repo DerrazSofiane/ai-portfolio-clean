@@ -28,26 +28,26 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0F172A;
+  background: var(--color-background, #0F172A);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #22D3EE;
+  background: var(--color-primary, #22D3EE);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0891B2;
+  background: var(--color-primaryDark, #0891B2);
 }
 
 /* Selection */
 ::selection {
-  background: #22D3EE;
-  color: #0F172A;
+  background: var(--color-primary, #22D3EE);
+  color: var(--color-background, #0F172A);
 }
 
 /* Focus Styles */
 :focus {
-  outline: 2px solid #22D3EE;
+  outline: 2px solid var(--color-primary, #22D3EE);
   outline-offset: 2px;
 }
