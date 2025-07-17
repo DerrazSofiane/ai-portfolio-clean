@@ -48,31 +48,9 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true,
-    // CRITICAL: Add ngrok domains to allowed hosts
-    allowedHosts: [
-      'localhost',
-      '127.0.0.1',
-      '.ngrok-free.app',  // This allows all ngrok-free.app subdomains
-      '.ngrok.io',        // This allows all ngrok.io subdomains
-      '.ngrok.app',       // This allows all ngrok.app subdomains
-    ],
-    // Disable HMR for ngrok - use full page reload instead
-    hmr: {
-      overlay: true,  // Show errors in browser
-    },
-    watch: {
-      usePolling: true,  // Use polling for file changes
-    },
   },
   // Preview configuration
   preview: {
     port: 3001,
-    allowedHosts: [
-      'localhost',
-      '127.0.0.1',
-      '.ngrok-free.app',
-      '.ngrok.io',
-      '.ngrok.app',
-    ],
   },
 })
