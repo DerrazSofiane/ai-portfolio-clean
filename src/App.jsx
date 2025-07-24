@@ -10,6 +10,7 @@ import useScrollToSection from './hooks/useScrollToSection';
 const Hero = lazy(() => import('./components/sections/Hero'));
 const ProfessionalProjects = lazy(() => import('./components/sections/ProfessionalProjects'));
 const About = lazy(() => import('./components/sections/About'));
+const Certifications = lazy(() => import('./components/sections/Certifications'));
 const Testimonials = lazy(() => import('./components/sections/Testimonials'));
 const EducationalProjects = lazy(() => import('./components/sections/EducationalProjects'));
 const Contact = lazy(() => import('./components/sections/Contact'));
@@ -46,6 +47,9 @@ function App() {
         </Suspense>
         <Suspense fallback={<LoadingSection />}>
           <About />
+        </Suspense>
+        <Suspense fallback={<LoadingSection />}>
+          <Certifications />
         </Suspense>
         <Suspense fallback={<LoadingSection />}>
           <Testimonials />

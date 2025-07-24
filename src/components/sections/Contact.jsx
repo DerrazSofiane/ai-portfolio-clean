@@ -176,7 +176,7 @@ const Contact = () => {
     {
       icon: FaMapMarkerAlt,
       title: 'Location',
-      value: 'France',
+      value: 'France / Switzerland',
     },
   ];
 

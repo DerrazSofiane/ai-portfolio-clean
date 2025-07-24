@@ -40,6 +40,7 @@ const Navigation = () => {
     { name: 'Home', to: 'hero' },
     { name: 'Professional', to: 'professional-projects' },
     { name: 'About', to: 'about' },
+    { name: 'Certifications', to: 'certifications' },
     { name: 'Testimonials', to: 'testimonials' },
     { name: 'Education', to: 'educational-projects' },
     { name: 'Contact', to: 'contact' },
